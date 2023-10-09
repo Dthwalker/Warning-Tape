@@ -23,7 +23,6 @@ class WarningTape {
         div.style.cssText = `grid-column: 1;
                              grid-row: 1;
                              height: min-content;
-                             width: min-content;
                              background: ${this.colors.black};
                              color: ${this.colors.yellow};
                              align-self: center;
@@ -84,4 +83,3 @@ class WarningTape {
 }
 
 let wT = new WarningTape();
-
